@@ -1,0 +1,18 @@
+uuid: fc8b46b9-ecc8-439e-9c4b-cb4a4621ddfb
+langcode: es
+status: true
+dependencies:
+  theme:
+    - bartik
+id: titulodelapagina
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Peliculas
+  provider: core
+  label_display: visible
+visibility: {  }

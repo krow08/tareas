@@ -1,0 +1,22 @@
+uuid: fada7270-8d12-4efe-91d3-26c9300c5637
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: peliculas
+label: Peliculas
+type: 'canonical_entities:node'
+pattern: 'Peliculas/[node:title]'
+selection_criteria:
+  58f74784-3298-4e48-b057-ca866df71275:
+    id: node_type
+    bundles:
+      peliculas: peliculas
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 58f74784-3298-4e48-b057-ca866df71275
+selection_logic: and
+weight: -5
+relationships: {  }

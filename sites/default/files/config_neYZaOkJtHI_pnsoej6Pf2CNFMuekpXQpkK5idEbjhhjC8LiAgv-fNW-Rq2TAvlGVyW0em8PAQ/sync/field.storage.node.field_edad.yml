@@ -1,0 +1,20 @@
+uuid: b8bdcde6-4584-41b0-8f52-aba3c6644fc0
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_edad
+field_name: field_edad
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

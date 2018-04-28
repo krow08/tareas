@@ -1,0 +1,29 @@
+uuid: 8f8fb94c-4abe-4fd0-8c83-53b8e1d6c30e
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.peliculas.body
+    - node.type.peliculas
+  module:
+    - text
+    - user
+id: node.peliculas.teaser
+targetEntityType: node
+bundle: peliculas
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: 3aaf2cb9-9515-4296-a09e-8ff47712c78d
+langcode: es
+status: true
+dependencies:
+  theme:
+    - seven
+id: pestanas
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary Tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

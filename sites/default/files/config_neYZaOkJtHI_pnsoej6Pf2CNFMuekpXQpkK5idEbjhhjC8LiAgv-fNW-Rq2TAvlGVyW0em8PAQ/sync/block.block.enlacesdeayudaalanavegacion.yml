@@ -1,0 +1,20 @@
+uuid: 88a03a1a-4a2c-41d3-b084-d1310f7c866f
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+id: enlacesdeayudaalanavegacion
+theme: seven
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  provider: system
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 9f7b5e4f-7563-4746-a6f7-bb8483e44138
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+id: contenidoprincipaldelapagina
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  provider: system
+  label_display: visible
+visibility: {  }

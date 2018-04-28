@@ -1,0 +1,21 @@
+uuid: 04cdef1e-c732-415e-bd85-6277a8137b25
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.peliculas
+  module:
+    - text
+id: node.peliculas.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: peliculas
+label: Titulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

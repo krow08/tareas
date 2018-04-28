@@ -1,0 +1,21 @@
+uuid: c67a6d31-0afa-49fb-9d95-c6879ecae487
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logros
+    - node.type.autor
+  module:
+    - text
+id: node.autor.field_logros
+field_name: field_logros
+entity_type: node
+bundle: autor
+label: Logros
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,20 @@
+uuid: 2a2d697b-0140-452d-b5a0-9ce70830772c
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seven
+id: iniciodesesion
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Inicio de sesión'
+  provider: user
+  label_display: visible
+visibility: {  }

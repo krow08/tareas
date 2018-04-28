@@ -1,0 +1,18 @@
+uuid: b6da0321-1732-402e-8c55-1fca2ea7fce8
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Articulo
+type: articulo
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

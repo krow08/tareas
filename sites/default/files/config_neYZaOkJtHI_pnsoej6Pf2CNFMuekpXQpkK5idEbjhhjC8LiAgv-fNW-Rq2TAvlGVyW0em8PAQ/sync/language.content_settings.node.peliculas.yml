@@ -1,0 +1,11 @@
+uuid: 5a50e3fe-2107-405a-8938-702949e02345
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.peliculas
+id: node.peliculas
+target_entity_type_id: node
+target_bundle: peliculas
+default_langcode: site_default
+language_alterable: false

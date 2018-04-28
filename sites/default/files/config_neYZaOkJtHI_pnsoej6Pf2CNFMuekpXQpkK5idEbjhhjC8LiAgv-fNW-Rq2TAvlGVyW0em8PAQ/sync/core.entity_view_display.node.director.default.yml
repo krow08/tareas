@@ -1,0 +1,47 @@
+uuid: ecbaf1d3-44be-4ed4-8da0-953df9eba4fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.director.body
+    - field.field.node.director.field_e
+    - field.field.node.director.field_edad_director
+    - node.type.director
+  module:
+    - text
+    - user
+id: node.director.default
+targetEntityType: node
+bundle: director
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_e:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_edad_director:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

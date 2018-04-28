@@ -1,0 +1,9 @@
+uuid: 678d3854-2d07-4124-8d79-e3acc87a68f0
+langcode: es
+status: true
+dependencies: {  }
+name: Peliculas
+vid: peliculas
+description: Peliculas
+hierarchy: 0
+weight: 0

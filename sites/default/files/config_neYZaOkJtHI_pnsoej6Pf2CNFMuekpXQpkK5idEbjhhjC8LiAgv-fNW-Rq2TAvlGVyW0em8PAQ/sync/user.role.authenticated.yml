@@ -1,0 +1,13 @@
+uuid: 91516ff6-4618-4d7f-83df-962817e31610
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Usuario autenticado'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format editor'

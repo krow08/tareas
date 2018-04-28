@@ -1,0 +1,38 @@
+uuid: 373297e6-cc61-42e6-937a-2fcd93f9a31c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_picture
+    - node.type.articulo
+  module:
+    - image
+id: node.articulo.field_picture
+field_name: field_picture
+entity_type: node
+bundle: articulo
+label: Picture
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '4 MB'
+  max_resolution: 1080x720
+  min_resolution: 640x480
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

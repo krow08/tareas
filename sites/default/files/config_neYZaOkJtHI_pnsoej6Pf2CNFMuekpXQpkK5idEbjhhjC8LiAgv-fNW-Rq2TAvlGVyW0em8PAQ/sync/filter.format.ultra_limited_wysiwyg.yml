@@ -1,0 +1,8 @@
+uuid: d046d1d3-2463-4d25-bae7-a9e6771d5186
+langcode: es
+status: true
+dependencies: {  }
+name: 'Ultra Limited Wysiwyg'
+format: ultra_limited_wysiwyg
+weight: 0
+filters: {  }

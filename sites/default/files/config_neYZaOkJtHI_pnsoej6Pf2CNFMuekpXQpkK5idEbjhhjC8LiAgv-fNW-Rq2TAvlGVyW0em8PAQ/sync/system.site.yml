@@ -1,0 +1,14 @@
+uuid: f9e51ffd-a2c4-4638-a003-313033441949
+name: 'Proyecto 01'
+mail: alt.nando@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

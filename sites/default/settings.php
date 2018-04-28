@@ -80,7 +80,7 @@
  *   'database' => 'databasename',
  *   'username' => 'sqlusername',
  *   'password' => 'sqlpassword',
- *   'host' => 'localhost',
+ *   'host' => php_sapi_name() == 'cli' ? '127.0.0.1' : 'localhost',
  *   'port' => '3306',
  *   'driver' => 'mysql',
  *   'prefix' => '',
@@ -212,7 +212,7 @@ $databases = array();
  *     'database' => 'databasename',
  *     'username' => 'sqlusername',
  *     'password' => 'sqlpassword',
- *     'host' => 'localhost',
+ *     'host' => php_sapi_name() == 'cli' ? '127.0.0.1' : 'localhost',
  *     'prefix' => '',
  *   );
  * @endcode
@@ -788,9 +788,9 @@ $settings['entity_update_batch_size'] = 50;
 $databases['default']['default'] = array (
   'database' => 'drupal',
   'username' => 'root',
-  'password' => 'boby2608',
+  'password' => '123',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => '127.0.0.1',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',

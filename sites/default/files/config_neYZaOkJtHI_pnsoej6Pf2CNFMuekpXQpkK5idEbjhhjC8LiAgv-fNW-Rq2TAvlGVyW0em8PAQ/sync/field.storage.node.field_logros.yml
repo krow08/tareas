@@ -1,0 +1,20 @@
+uuid: 31a3fed2-14e2-4854-b0c2-665e572a1bf1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_logros
+field_name: field_logros
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

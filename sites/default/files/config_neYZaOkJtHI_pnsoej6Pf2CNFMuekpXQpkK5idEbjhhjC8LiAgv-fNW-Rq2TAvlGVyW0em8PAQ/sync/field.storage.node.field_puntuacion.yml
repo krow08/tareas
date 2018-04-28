@@ -1,0 +1,20 @@
+uuid: e251bb35-9174-46b7-ae6a-01cb6f398db1
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_puntuacion
+field_name: field_puntuacion
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

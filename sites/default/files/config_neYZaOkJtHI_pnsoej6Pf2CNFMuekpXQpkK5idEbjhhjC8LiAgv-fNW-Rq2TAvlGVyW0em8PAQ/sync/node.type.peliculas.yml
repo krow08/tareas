@@ -1,0 +1,11 @@
+uuid: 2f8a66ee-2a55-4c01-86f3-6bb0ad63d17e
+langcode: es
+status: true
+dependencies: {  }
+name: Peliculas
+type: peliculas
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

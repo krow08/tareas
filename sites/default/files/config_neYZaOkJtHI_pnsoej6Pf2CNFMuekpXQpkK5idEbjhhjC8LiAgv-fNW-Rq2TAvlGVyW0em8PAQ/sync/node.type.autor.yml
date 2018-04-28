@@ -1,0 +1,11 @@
+uuid: 3d8adc99-8a72-47fd-b377-87d6e42c901d
+langcode: es
+status: true
+dependencies: {  }
+name: Autor
+type: autor
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

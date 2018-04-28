@@ -1,0 +1,23 @@
+uuid: 8fd6b354-d14f-4614-adfb-11c267aadcc2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e
+    - node.type.director
+id: node.director.field_e
+field_name: field_e
+entity_type: node
+bundle: director
+label: Edad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

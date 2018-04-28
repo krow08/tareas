@@ -1,0 +1,11 @@
+uuid: 0ed5d6d2-d906-4308-8370-df6e630f3c43
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.peliculas
+id: taxonomy_term.peliculas
+target_entity_type_id: taxonomy_term
+target_bundle: peliculas
+default_langcode: site_default
+language_alterable: false

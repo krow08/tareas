@@ -1,0 +1,14 @@
+uuid: 340ad461-3e87-4577-9bcc-d1d0fe65bd8b
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.creador_de_contenidos
+  module:
+    - user
+id: user_remove_role_action.creador_de_contenidos
+label: 'Elimina el rol Creador de Contenidos al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: creador_de_contenidos

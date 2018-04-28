@@ -1,0 +1,35 @@
+uuid: 969b8eac-426b-460c-ae7e-9b6c5f61c494
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - node
+    - system
+  theme:
+    - bartik
+id: navegacionprincipal
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegación principal'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      articulo: articulo
+      autor: autor
+      director: director
+      peliculas: peliculas
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

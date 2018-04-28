@@ -1,0 +1,9 @@
+uuid: cc9ffa0a-11d2-45d0-8c13-1c509a6eb218
+langcode: es
+status: true
+dependencies: {  }
+name: PeliculasDirigidas
+vid: peliculasdirigidas_
+description: ''
+hierarchy: 0
+weight: 0
